@@ -1,0 +1,1 @@
+data_source_name: "postgresql://postgres:<POSTGRES_PASSWORD>@<POSTGRES_SERVER_IP>:5432/postgres"

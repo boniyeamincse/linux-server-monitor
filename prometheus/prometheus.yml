@@ -1,0 +1,19 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+
+  - job_name: 'apache'
+    static_configs:
+      - targets: ['<APACHE_SERVER_IP>:9117']  # Replace <APACHE_SERVER_IP> with your Apache server IP.
+
+  - job_name: 'mysql'
+    static_configs:
+      - targets: ['<MYSQL_SERVER_IP>:9104']   # Replace <MYSQL_SERVER_IP> with your MySQL server IP.
+
+  - job_name: 'postgresql'
+    static_configs:
+      - targets: ['<POSTGRES_SERVER_IP>:9187'] # Replace <POSTGRES_SERVER_IP> with your PostgreSQL server IP.

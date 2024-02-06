@@ -1,0 +1,5 @@
+modules:
+  apache:
+    enabled: true
+    sites:
+      - url: http://<APACHE_SERVER_IP>/server-status/?auto
