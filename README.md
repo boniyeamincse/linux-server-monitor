@@ -85,4 +85,7 @@ Contributions are welcome! Please fork the repository and submit pull requests.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Author
+Boni Yeamin
+
 
